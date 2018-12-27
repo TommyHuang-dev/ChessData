@@ -47,11 +47,3 @@ with open(IN_NAME, "r", errors="replace") as inFile:
         print(openCode, year, result)
 
 
-# write to chessParsedData.csv
-with open(OUT_NAME, 'w', newline='') as outFile:
-    writer = csv.writer(outFile, delimiter=',',
-                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
-
-    writer.writerow(['row 1', 'row 2'])
-    writer.writerow(['1', '2', '3'])
-
