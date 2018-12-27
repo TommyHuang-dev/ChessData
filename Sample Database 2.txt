@@ -1,0 +1,124 @@
+McDonnell,Alexander - De Labourdonnais,Louis Charles Mahe [C24]
+Match Labourdonnais-McDonnell(2) +4-5=0 London (5), 07.1834
+
+1.e4 e5 2.Bc4 Nf6 3.d4 exd4 4.e5 Qe7 5.Qe2 Ng8 6.Nf3 Nc6 7.c3 d6 8.cxd4 Bg4 9.Bb5 d5 10.Nc3 Qe6 11.h3 Bxf3 12.Qxf3 0-0-0 13.Bxc6 Qxc6 14.Qxf7 Bb4 15.Bd2 Ne7 16.0-0 Rdf8 17.Qh5 Nf5 18.a3 Bxc3 19.Bxc3 g6 20.Qd1 h5 21.Rc1 Qe6 22.f4 h4 23.Rf3 Rfg8 24.Qe1 Kb8 25.Qd2 Rh7 26.Qd3 Rhg7 27.Bd2 a6 28.b4 Qb6 29.Bc3 Ng3 30.a4 Ne4 31.b5 g5 32.f5 g4 33.hxg4 Rxg4 34.Rc2 h3 35.Rxh3 Rg3 36.Rxg3 Rxg3 37.a5 Qh6 38.Bd2 Qh3 39.Qf1 Rg8 40.f6 Qh5 41.f7 Rf8 42.e6 Ng3 43.Qf3 Qh1+ 44.Kf2 Ne4+ 45.Ke2 Qb1 46.e7 Qxb5+ 47.Qd3 Ng3+ 48.Kd1 The Chess Player's Chronicle 1842, p. 215 1-0
+
+De Labourdonnais,Louis Charles Mahe - McDonnell,Alexander [C42]
+Match Labourdonnais-McDonnell(2) +4-5=0 London (6), 07.1834
+
+1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bxc4 exd4 5.exd4 Nf6 6.Nc3 Be7 7.Nf3 0-0 8.0-0 c6 9.h3 Nbd7 10.Be3 Nb6 11.Bb3 Nfd5 12.Qe2 Kh8 13.Rae1 Bd6 14.Bc2 f5 15.Ne5 f4 16.Qh5 Nf6 17.Ng6+ Kg8 18.Bb3+ Nbd5 19.Nxd5 cxd5 20.Bxd5+ Nxd5 21.Qxd5+ Rf7 22.Ne5 Be6 23.Qxe6 Bxe5 24.dxe5 fxe3 25.Rxe3 Qe8 26.Qxe8+ Rxe8 27.f4 Rc7 28.Rf2 Kf7 29.g4 Rc5 30.Rfe2 a5 31.Kf2 b5 32.Kf3 b4 33.a3 Rb8 34.axb4 Rxb4 35.Rc3 The Chess Player's Chronicle 1842, p. 231 1-0
+
+McDonnell,Alexander - De Labourdonnais,Louis Charles Mahe [B21]
+Match Labourdonnais-McDonnell(2) +4-5=0 London (7), 07.1834
+
+1.e4 c5 2.f4 e6 3.Nf3 Nc6 4.c3 d5 5.e5 f6 6.Na3 Nh6 7.Nc2 Qb6 8.d4 Bd7 9.h4 cxd4 10.cxd4 Nf5 11.Kf2 h5 12.g3 0-0-0 13.Kg2 Be7 14.a3 Be8 15.b4 Kb8 16.b5 Na5 17.Ne3 Bg6 18.Bd3 Nxe3+ 19.Bxe3 Be4 20.Bxe4 dxe4 21.Nd2 fxe5 22.fxe5 Qxb5 23.Qf1 Qd3 24.Qxd3 exd3 25.Rhb1 Rc8 26.Kf3 Rc3 27.Rb5 Bd8 28.Ke4 a6 29.Rbb1 Be7 30.a4 Rd8 31.Rb6 Rc6 32.Rab1 Kc7 33.Rxc6+ Nxc6 34.Rf1 Bb4 35.Rf7+ Rd7 36.Rxd7+ Kxd7 37.Nf3 Be7 38.Kxd3 Nb4+ 39.Ke4 Nd5 40.Bd2 b5 41.axb5 axb5 42.Kd3 Ke8 43.Bg5 Bxg5 44.Nxg5 Kd7 45.Ne4 Kc6 46.Nc5 Nc7 47.Ke4 b4 48.Kd3 Kd5 49.Ne4 Nb5 50.g4 hxg4 51.h5 Nxd4 52.h6 gxh6 53.Nf6+ Kxe5 54.Nxg4+ Kd5 The Chess Player's Chronicle 1842, p. 247 0-1
+
+De Labourdonnais,Louis Charles Mahe - McDonnell,Alexander [D20]
+Match Labourdonnais-McDonnell(2) +4-5=0 London (8), 07.1834
+
+1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bxc4 exd4 5.exd4 Nf6 6.Nf3 Be7 7.0-0 0-0 8.h3 Nbd7 9.Nc3 Nb6 10.Bb3 c6 11.Be3 Nfd5 12.Qe2 f5 13.Rae1 f4 14.Bxf4 Rxf4 15.Qxe7 Qxe7 16.Rxe7 Kf8 17.Re4 Rf6 18.Nxd5 cxd5 19.Re3 Bf5 20.Ne5 h6 21.Rc1 Rd8 22.Rc7 Bc8 23.Rg3 Bd7 24.Bxd5 Nxd5 25.Rxd7 Rxd7 26.Nxd7+ The Chess Player's Chronicle 1842, p. 261 1-0
+
+McDonnell,Alexander - De Labourdonnais,Louis Charles Mahe [B21]
+Match Labourdonnais-McDonnell(2) +4-5=0 London (9), 07.1834
+
+1.e4 c5 2.f4 e6 3.Nf3 d5 4.e5 Nc6 5.c3 f6 6.Na3 Nh6 7.Nc2 Qb6 8.d4 Bd7 9.h4 0-0-0 10.a3 Kb8 11.b4 cxd4 12.cxd4 Nf5 13.Kf2 h5 14.Bd3 Nh6 15.Bd2 Ng4+ 16.Kg3 Rc8 17.Qe2 Be7 18.a4 g5 19.a5 Qc7 20.b5 gxf4+ 21.Kh3 Nxd4 22.Ncxd4 fxe5 23.b6 Qd6 24.Nxe5 Qxe5 25.Qxe5+ Nxe5 26.Bxf4 Bd6 27.Bb5 Rc3+ 28.g3 Bc8 29.bxa7+ Ka8 30.a6 bxa6 31.Bxa6 Nf7 32.Bxd6 Nxd6 33.Bxc8 Rhxc8 34.Nxe6 Ne4 35.Rhg1 Nf2+ 36.Kg2 Ng4 37.Rgb1 Rc2+ 38.Kg1 Ne5 39.Ra3 Rc1+ 40.Rxc1 Rxc1+ 41.Kg2 Rc2+ 42.Kf1 Rc6 43.Nf4 d4 44.Ke2 Rc2+ 45.Kd1 Rc4 46.Nxh5 Ng4 47.Nf4 Ne3+ 48.Ke2 Nf5 49.Nd5 Nxg3+ 50.Kf3 Rc6 51.Kxg3 The Chess Player's Chronicle 1842, p. 277 1-0
+
+McDonnell,Alexander - De Labourdonnais,Louis Charles Mahe [C37]
+Match Labourdonnais-McDonnell(3) +6-5=1 London (1), 25.07.1834
+
+1.e4 Walker,George: The Battles of M'Donnell and De La Bourdonnais.(Chess Players Chronicle 1843 and reprinted in Chess and Chessplayers 1860).
+p.376: "The third match comprised in all twelve games, there being one draw; and was stipulated to consist of eleven."
+ 1...e5 2.f4 p377: "As the contest went on between these renowned artists, it was curious to mark in how much bolder a style they played, than in the introductory games. Like two haughty knights throwing away helm and shield, each appeared to disdain defence, provided he could strike his oppenent a home blow with sword or axe. Increased brilliancy was developed, and the spectators saw surprise that even the sacrifice of a piece was not counted much, provided the repayment of the obligation seemed probable. The word ran throughout the club, "This is indeed Chess!"
+ 2...exf4 3.Nf3 g5 4.Bc4 g4 5.Nc3 gxf3 6.Qxf3 Qf6 7.Nd5 Qe5 8.c3 Bh6 9.d4 Qd6 10.e5 Qc6 11.Bb5 Qg6 12.Nxc7+ Kd8 13.Nxa8 Ne7 14.0-0 Rg8 15.Bd3 Qg7 16.b4 Ng6 17.Bxg6 Qxg6 18.b5 d6 19.b6 a6 20.exd6 Nc6 21.d7 Bxd7 22.Nc7 Bg4 23.Qd5+ Kc8 24.Bxf4 Be6 25.Nxe6 fxe6 26.Qf3 Bxf4 27.Rae1 e5 28.Kh1 Qh6 29.Qh3+ Qxh3 30.gxh3 Bd2 31.Rd1 Bxc3 32.d5 Ne7 33.Rf7 Bb4 34.d6 Nc6 35.Rc7+ Kb8 36.Rxh7 e4 37.Rh4 e3 38.Re4 Bc5 39.d7 Rd8 40.h4 Bxb6 41.h5 Kc7 42.h6 e2 43.Rxe2 Bd4 44.h7 Kxd7 45.Rg2 Rh8 46.Rg7+ Kd6 47.Rxb7 Kc5 48.Kg2 Nd8 49.Rd7 Ne6 50.h4 Kc6 51.R7xd4 Nxd4 52.Rxd4 Rxh7 53.Kg3 Kc5 54.Rd2 a5 55.Kg4 a4 56.Rd3 Rb7 57.h5 Rb4+ 58.Kg3 Rb1 59.Rd2 Rg1+ 60.Rg2 Rh1 61.Rh2 Rg1+ 62.Kh4 Rg8 63.h6 Kb4 64.Kh5 Ka3 65.h7 Rb8 66.Kg5 Rb5+ 67.Kf4 Rb8 68.Ke4 Re8+ 69.Kd3 Rd8+ 70.Kc2 Rh8 71.Kb1 Kb4 72.Rh4+ Kc3 73.Rh3+ Kc4 74.Kb2 Kb4 75.a3+ Kc4 76.Rh4+ Kb5 77.Kc3 Rc8+ 78.Kb2 Rh8 79.Rb4+ Ka5 80.Rb7 Ka6 81.Rg7 Ka5 82.Kc3 Rc8+ 83.Kd4 Rh8 84.Rg5+ Kb6 85.Rh5 Kc6 86.Kc4 Kb6 87.Kb4 Kc6 88.Kxa4 Kb6 89.Rh6+ Kc5 90.Ka5 Ra8+ 91.Ra6 Rb8 92.a4 Rc8 93.Ra7 Rb8 94.Rc7+ Kd6 95.Rc1 Ra8+ 96.Kb5 Rb8+ 97.Ka6 Ra8+ 98.Kb7 Rh8 99.Rh1 The Chess Player's Chronicle 1842, p. 295 1-0
+
+De Labourdonnais,Louis Charles Mahe - McDonnell,Alexander [C53]
+Match Labourdonnais-McDonnell(3) +6-5=1 London (2), 1834
+[ChessBase]
+
+1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 d6 [4...Nf6] 5.d4 exd4 6.cxd4 Bb6! 7.Nc3 Nf6 8.d5 Ne5 [8...Ne7] 9.Nxe5 dxe5 10.Bg5 a6 … 11... £d6 11.Qf3 Qd6 12.Bxf6 Qxf6 13.Qxf6 gxf6 14.0-0-0! Bxf2 15.Rhf1 Be3+ 16.Kc2 Rg8 17.g3 Rg6 18.d6! c6! [18...cxd6 19.Rxd6 Ke7 20.Rdxf6! Rxf6 21.Nd5+±; 
+18...Bg4 19.Rd3 Bb6! 20.Nd5 Be2 21.Nxf6+ Kd8 (21...Kf8 22.Nxh7+ Kg8 23.Rxf7 Bxd3+ 24.Kxd3 Rxd6+ 25.Ke2 … 26.¤f6, 27.¦h7# 25...Rh6 26.Ng5! (26.Nf6+ Kh8 27.h4 Rd8 … 28... ¦d6) 26...Kh8! 27.h4+- ‚) 22.dxc7+ Kxc7 23.Rd7+ Kc6 24.Bxe2 Rxf6 25.Rxf6+ Kxd7 26.Rxb6+-] 19.Bxf7+! Kxf7 20.d7 Bxd7 21.Rxd7+ Ke6 22.Rxh7 Rh6! 23.Rxh6 Bxh6± 24.Rd1 b5 25.Ne2 a5 26.g4 Rg8 27.h3 c5! … 28... ¥e3, 29... ¥d4 28.Rd3! Rc8 29.Ng3 b4 30.Nf5 Bf8 31.h4 a4 32.h5 c4 33.Rh3 b3+ 34.axb3 [34.Kb1 Rd8 35.Rh1 Rd2 36.h6 a3 37.axb3! a) 37.h7 Rxb2+ 38.Ka1 Rxa2+ 39.Kb1 Bb4 40.h8Q Ra1+! 41.Kxa1 Bc3+ 42.Kb1 a2+ 43.Kc1 a1Q#; b) 37.bxa3 Rxa2 38.h7 c3! 39.Ne3! (39.h8Q c2+ 40.Kc1 Bxa3+-+) 39...Bg7! (39...Bxa3=) 40.h8Q Bxh8 41.Rxh8 Re2! 42.Nd1 c2+ 43.Kc1 Re1 44.Rd8 cxd1Q+ 45.Rxd1 b2+-+; 37...Rxb2+ 38.Ka1 (38.Kc1 c3-+) 38...cxb3 39.h7 Bb4!! 40.Rh3!= (40.Rc1 Rh2! 41.Ng7+ Kf7 42.Nh5 Bc3+-+; 40.h8Q Ra2+ 41.Kb1 Ra1+ 42.Kxa1 Bc3+ 43.Kb1 a2+ 44.Kc1 a1Q#) ; 
+34.Kc3 bxa2! (34...a3 35.axb3 (35.bxa3! Rb8 36.Kb2 Bxa3+! 37.Kb1!!=) 35...Rb8!! … 36... ¦b3, 37... ¦xh3 -+ 36.Kxc4 (36.Kc2 a2! (36...cxb3+ 37.Rxb3 a2 38.Rxb8 a1Q 39.Rxf8 Qa4+µ) 37.Rh1 cxb3+ 38.Kc3 Kf7!! 39.h6 Kg8 40.h7+ Kh8 41.Kc4 Ba3! 42.Kc3 Bc5 43.Kc4 Bd4 44.Nxd4 exd4 45.Kxd4 Ra8! (45...Rc8 46.e5 fxe5+ 47.Kxe5 Rc2 48.g5 Rxb2 49.g6 Rb1?? 50.g7+) 46.Ra1 Rc8 47.Rh1 Rc2 48.e5 fxe5+ 49.Kxe5 Rxb2 50.g5 Rb1-+) 36...axb2 37.Rh1 Rc8+ 38.Kd3 Rc1-+) 35.Rh1 Bb4+! 36.Kxb4 (36.Kc2 c3 37.h6 a1Q 38.Rxa1 cxb2+ 39.Kxb2 Bc3+ 40.Ka2 Bxa1-+) 36...c3 37.Ka3! (37.bxc3? Rb8+! 38.Ka3 Rb1-+) 37...c2 38.Rc1! a1Q+ 39.Rxa1 c1Q 40.Rxc1 Rxc1 41.Kxa4 Rc4+ 42.b4 Rxe4 43.h6! Re1! (43...Rxg4??+-; 43...Kf7??+-) 44.b5!= e4 45.b6 e3? 46.Nxe3 Rxe3 47.b7+-] 34...cxb3+ 35.Kb1 [35.Kd3? Rc2-+] 35...Kf7!! 36.h6 [36.Ne3? Bh6! 37.Rf3 Bf4 38.Rh3 a3! 39.bxa3 Rc3 40.Kb2 Rd3!! (40...Rxe3? 41.Rxe3 Bxe3 42.Kxb3 Ke6! 43.Kc4 Kd6 44.Kb5 Kc7 45.a4 Kb7 46.a5 Kc7 47.a6 Kb8 48.Kc6 Ka7 49.Kd5 Kxa6 50.Ke6 Bg5 51.h6 Bxh6 52.Kxf6 Bf4 53.g5=) 41.a4 Bxe3!-+; 
+36.Rh1 a3 37.h6 (37.bxa3 Bxa3 38.Ne3 Kg7 39.Nf5+ Kh7 40.Ne3! Kh6 41.Rf1 Rc6-+) 37...a2+? (37...Kg8 38.h7+ Kh8-+ 39.Ne3 (39.bxa3 Bxa3 … 40... b2 ) 39...Bh6!) 38.Ka1 Kg8 39.h7+ Kh8 40.g5! fxg5 41.Nh6!! Bxh6 (41...Kxh7 42.Nf5+ Kg8 43.Ne7+ Bxe7 44.Rh8+=; 41...Rc7! 42.Rf1 Kxh7! 43.Nf7 Bg7 44.Nxg5+ Kg6 45.Ne6 Re7 46.Nxg7 Kxg7 47.Rf7+=) 42.Rf1!! Kxh7 43.Rf7+ Kg6 44.Rg7+ Kh5 45.Rxg5+=; 
+36.Rc3 Rd8! (36...Rxc3 37.bxc3 a3 (37...Bc5 38.Kb2 Kg8 39.Nh4! Kh7 40.Nf3 Kh6 41.c4 Bb4 (41...Be3 42.Nh4! (42.Ka3? Bc1+-+; 42.Kc3 Bd4+ 43.Nxd4 exd4+-+; 42.g5+ fxg5 43.Nxe5-+) 42...Kg5 43.Nf5 Bd4+ 44.Ka3 Bc5+ 45.Kb2 Bb4 46.Ng3!=) 42.g5+!= fxg5 43.Nxe5 Kxh5 44.Nd3 Be7 (44...g4?? 45.Nxb4+-) 45.c5 g4 46.c6 Bd8 47.Nf4+!! Kh4 48.e5 g3 49.e6 Bf6+ 50.Ka3 Be7+ 51.Kb2 Bf6+=) 38.Ne3 Kg7 39.Nc4 Kh6 40.Nd2 Kg5 41.Nxb3 Kxg4 42.c4 Kxh5 43.c5 Kg4 44.c6 Bd6 45.Nc5 Kf3 46.Ka2 Ke3 47.Nd7 Kxe4 48.Nxf6+=) 37.Rc7+ (37.Kc1 Bb4 38.Rc4 (38.Rc7+ Kf8! 39.Ng7! Kg8!-+) 38...Bd2+ 39.Kd1 a3! 40.bxa3 Bf4+ 41.Ke2 Rb8!-+) 37...Kg8 38.Ne3 Rd3 39.Nd5 (39.Rc3 Rd2! 40.Kc1 Re2-+ … 41... ¥h6) 39...Rf3 40.Rc8 (40.Rc6 Bh6 41.Rxf6 Bf4-+; 40.Kc1 Bh6+ 41.Kd1 a3!-+) 40...Kh7! 41.Rc7+ Kh6 42.Kc1 Rf1+ (42...a3 43.bxa3 Bxa3+ 44.Kd2 b2 45.Rb7 Rf1 46.Nc3 Rc1 47.Rb3! Kg5 48.Kd3= Kxg4 49.h6; 42...Bb4!!-+ Mit zwingenden Übergang in die Hauptvariante.) 43.Kd2 Bb4+!! (43...a3 44.bxa3 Bb4+!! 45.axb4 b2 46.Nc3 Rc1 47.Rf7!! Kg5 (47...Rxc3 48.Rxf6+ Kg5 49.Rf1=) 48.Nb1!! Rxb1 49.Kc2 Re1 50.Kxb2 Rxe4 51.Rg7+=) 44.Nxb4 (44.Nc3 a3!-+; 44.Ke2 a3!-+) 44...a3 45.Nd5 a) 45.Rc1 Rxc1 46.Kxc1 a2-+; b) 45.Nd3! a2 46.Ra7 a1Q 47.Rxa1 Rxa1 48.Nb4 (48.Nc5 Rb1! 49.Kc3 Rc1+ 50.Kb4 Rc2 51.Nxb3 Rxb2-+; 48.Kc3 Rd1! 49.Nc5 Rc1+-+) 48...Rg1!+-; 45...axb2 46.Nc3 Rc1-+ 47.Rf7 Rc2+ 48.Kd1 Rxc3] 36...Kg8 37.h7+ Kh8 38.Ne3! a3 39.bxa3 Bxa3 40.Rh1 b2?? [40...Rc6-+ 41.Nd5 41.¤f5 (41.Rg1 Kxh7; 41.g5 fxg5) 41...b2] 41.Nc2= Be7 42.Kxb2 Rc4 43.Re1 Kxh7 44.Kb3 Rc8 45.Ne3 Kg6 46.Rf1 Rh8 47.Rf3 Rc8 48.Nd5 Bd8 49.Rf5 Rc1 ½-½
+
+De Labourdonnais,Louis Charles Mahe - McDonnell,Alexander [D20]
+Match Labourdonnais-McDonnell(3) +6-5=1 London (3), 1834
+
+1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bxc4 exd4 5.exd4 Nf6 6.Nc3 Be7 7.Nf3 0-0 8.h3 Nbd7 9.Be3 Nb6 10.Bb3 c6 11.0-0 Nfd5 12.Qe2 f5 13.Rae1 g5 14.Bd2 Bf6 15.Ne5 Qe8 16.f4 g4 17.hxg4 fxg4 18.f5 Qh5 19.Bc2 Qh4 20.Qe4 Kh8 21.Nxg4 Nc4 22.Nxf6 Qxf6 23.Nxd5 cxd5 24.Qf4 Nxd2 25.Qxd2 Bd7 26.Re5 Rg8 27.Rfe1 Qh4 28.R1e2 Bb5 29.Rf2 Rg4 30.f6 Rxd4 31.Qe3 Rg4 32.Re7 d4 33.Qe5 Rg5 34.f7+ Rxe5 35.f8Q+ Rxf8 36.Rxf8# The Chess Player's Chronicle 1842, p. 360 1-0
+
+McDonnell,Alexander - De Labourdonnais,Louis Charles Mahe [D32]
+Match Labourdonnais-McDonnell(3) +6-5=1 London (4), 1834
+
+1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 c5 5.cxd5 exd5 6.Bg5 Be6 7.e3 Nc6 8.Bd3 Be7 9.dxc5 Bxc5 10.0-0 h6 11.Bxf6 Qxf6 12.Rc1 Bd6 13.Bb5 0-0 14.Nxd5 Qxb2 15.Rb1 Qa3 16.e4 Rad8 17.Nd2 a6 18.Bc4 b5 19.Bb3 Nd4 20.Qh5 Nxb3 21.Nxb3 Qxa2 22.Nd4 Qc4 23.Rfd1 Bxd5 24.exd5 Rfe8 25.Rbc1 Qa2 26.Nf5 Qe2 27.Qh3 b4 28.g4 a5 29.Re1 Qxe1+ 30.Rxe1 Rxe1+ 31.Kg2 a4 32.Qh4 f6 33.Qh5 Bf8 34.Qg6 Kh8 35.Nxh6 gxh6 36.Qxf6+ Kg8 37.Qxd8 a3 38.Qa5 Rd1 39.Qa4 Rd2 40.d6 Bxd6 41.Qe8+ Kg7 42.Qd7+ Kf8 43.Qf5+ Kg7 44.g5 Be7 45.Qe5+ Kg6 46.Qe4+ Kf7 47.Qf4+ Kg7 48.Qxd2 hxg5 49.Qd5 The Chess Player's Chronicle 1842, p. 376 1-0
+
+De Labourdonnais,Louis Charles Mahe - McDonnell,Alexander [D20]
+Match Labourdonnais-McDonnell(3) +6-5=1 London (5), 1834
+
+1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bxc4 exd4 5.exd4 Nf6 6.Nc3 Be7 7.Nf3 0-0 8.h3 Nbd7 9.Be3 Nb6 10.Bb3 c6 11.0-0 Nfd5 12.Qe2 f5 13.Ne5 f4 14.Bd2 g5 15.Rae1 Kg7 16.Nxd5 Nxd5 17.Nxc6 bxc6 18.Bxd5 Qxd5 19.Qxe7+ Rf7 20.Qb4 Bf5 21.Re5 Qd7 22.d5 cxd5 23.Qd4 Kh6 24.h4 Be6 25.Rfe1 Re8 26.Rxg5 Ref8 27.Qe5 Bg4 28.Rh5+ Bxh5 29.Qg5# The Chess Player's Chronicle 1842, p. 389 1-0
+
+McDonnell,Alexander - De Labourdonnais,Louis Charles Mahe [C25]
+Match Labourdonnais-McDonnell(3) +6-5=1 London (6), 1834
+
+1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 g4 5.Nc3 gxf3 6.Qxf3 Nc6 7.d4 Nxd4 8.Bxf7+ Kxf7 9.Qh5+ Kg7 10.0-0 Ne6 11.Bxf4 Bc5+ 12.Kh1 Nf6 13.Qh6+ Kg8 14.Rf3 Bf8 15.Rg3+ Kf7 16.Qh4 Nxf4 17.Qxf4 d6 18.Rf1 Be6 19.Qg5 Ke8 20.Rxf6 Qe7 21.Rgf3 c6 22.Ne2 Rg8 23.Qh5+ Kd8 24.Nd4 Bg4 25.Qa5+ Kc8 26.Rf1 Bd7 27.Rf7 Qe8 28.b4 b6 29.Qa6+ Kc7 30.Qc4 Be7 31.Nxc6 b5 32.Qxb5 Bxc6 33.Qa5+ Kb8 34.Qf5 Bd8 35.Re1 Qe5 36.Qf3 d5 37.b5 Bb7 38.Rxb7+ Kxb7 39.Qf7+ Bc7 The Chess Player's Chronicle 1842, p. 407 0-1
+
+De Labourdonnais,Louis Charles Mahe - McDonnell,Alexander [D20]
+Match Labourdonnais-McDonnell(3) +6-5=1 London (7), 1834
+
+1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bxc4 exd4 5.exd4 Nf6 6.Nc3 Bd6 7.Nf3 0-0 8.h3 Re8+ 9.Be3 Bf4 10.Qe2 Qe7 11.0-0 Bxe3 12.fxe3 Qxe3+ 13.Qxe3 Rxe3 14.Ne5 Be6 15.Bxe6 fxe6 16.Kf2 Rxe5 17.dxe5 Nfd7 18.Nb5 Na6 19.Kg3 Nxe5 20.Rae1 Ng6 21.Rxe6 Nc5 22.Re3 c6 23.Nd6 b6 24.h4 h6 25.h5 Nf8 26.Re7 Rd8 27.Nb7 Rd3+ 28.Rf3 Rd5 29.Nxc5 Rxc5 30.Re8 The Chess Player's Chronicle 1842, p. 423 1-0
+
+McDonnell,Alexander - De Labourdonnais,Louis Charles Mahe [C38]
+Match Labourdonnais-McDonnell(3) +6-5=1 London (8), 1834
+
+1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 Bg7 5.d4 d6 6.c3 Nc6 7.Qb3 Qe7 8.Nxg5 Qxg5 9.Bxf7+ Kf8 10.Bxg8 Rxg8 11.Bxf4 Qg6 12.Rf1 Bf6 13.Nd2 Ke8 14.0-0-0 Be7 15.e5 d5 16.Qxd5 Qxg2 17.Qb3 Nd8 18.d5 c6 19.d6 Be6 20.Nc4 Bf8 21.d7+ Bxd7 22.Nd6+ Bxd6 23.exd6 Rg6 24.Bg3 Qh3 25.Qb4 Re6 26.Qd4 Nf7 27.Rf2 Qh6+ 28.Kb1 Qg6+ 29.Ka1 c5 30.Qd2 Rf6 31.Bf4 Kf8 32.Rg2 Qh5 33.Re1 Rd8 34.Qe3 Be6 35.Reg1 Ke8 36.Bg5 Rxd6 37.Qg3 Rf3 38.Qe1 Rfd3 39.Bc1 Rd1 40.Rg8+ Kd7 41.Qe4 Qd5 42.Qa4+ Qc6 43.Qxa7 Rxg1 44.Rxg1 Qa6 45.Qxa6 Rxa6 46.a3 Bb3 47.Kb1 Rf6 48.Rg2 Rf1 49.Rg3 c4 50.Rg7 Ke6 51.Rxh7 Ne5 52.Rh6+ Kd7 53.Rh7+ Kc6 54.Rh6+ Kb5 55.Rh5 Re1 56.Rg5 Ka4 57.Rg3 Nd3 58.Rxd3 cxd3 59.h4 d2 The Chess Player's Chronicle 1843, p. 7 0-1
+
+De Labourdonnais,Louis Charles Mahe - McDonnell,Alexander [D20]
+Match Labourdonnais-McDonnell(3) +6-5=1 London (9), 1834
+
+1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bxc4 exd4 5.exd4 Nf6 6.Nc3 Bd6 7.Nf3 0-0 8.h3 Re8+ 9.Be3 Nc6 10.0-0 h6 11.a3 Bf5 12.g4 Bxg4 13.hxg4 Nxg4 14.Qd3 Qf6 15.Kg2 Ne7 16.Ne4 Qg6 17.Ng3 Nxe3+ 18.Qxe3 Nf5 19.Qd3 Bxg3 20.fxg3 Qxg3+ 21.Kh1 Ne3 22.Bxf7+ Kh8 23.Qg6 Nxf1 24.Rxf1 Qh3+ 25.Kg1 Re3 26.Rf2 Rxf3 27.Rg2 Rxf7 28.Qxf7 Qe3+ 29.Qf2 Qxf2+ 30.Rxf2 Rd8 31.Rf4 Rd7 32.Kf2 Kh7 33.Kf3 g5 34.Rf6 Kg7 35.Re6 Rxd4 36.Re7+ Kg6 37.Rxc7 Rd3+ 38.Ke4 Rb3 39.Rc2 h5 40.Rd2 g4 41.Kf4 Rf3+ 42.Ke5 Kg5 43.Rd7 Rb3 44.Rd2 g3 45.Rd8 Kg4 46.Rg8+ Kh3 47.Kf4 h4 The Chess Player's Chronicle 1843, p. 24 0-1
+
+McDonnell,Alexander - De Labourdonnais,Louis Charles Mahe [C38]
+Match Labourdonnais-McDonnell(3) +6-5=1 London (10), 1834
+[ChessBase]
+
+1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 Bg7 5.d4 d6 6.c3 h6 7.Na3 Nc6 8.Bd2 Qe7 9.0-0 Bd7 10.b4 0-0-0 11.Bd3 g4 12.Ne1 f3 13.gxf3 Nf6 [13...Nxb4 14.cxb4 Bxd4+ 15.Kh1 Bxa1 16.Qxa1÷] 14.b5 Nb8 15.Nac2 Rdg8 16.Kh1 h5 17.Ne3! gxf3 18.Qxf3 Bg4 19.Qf4 Nbd7 20.Nf5 Qe6 21.Nf3 Bxf3+ 22.Qxf3 Ng4 23.a4 Bh6 24.Bxh6 Nxh6 25.a5 Nxf5? [25...Kb8] 26.exf5 Qb3 27.a6 d5 [27...b6 28.Qb7+ Kd8 29.f6+-] 28.c4! Nf6 29.axb7+ Kb8 30.c5 Ng4 31.b6! axb6 [31...cxb6 32.Qg3+ Kxb7 33.Rxa7+ Kxa7 34.Qc7+ Ka8 35.Ra1++-] 32.c6 1-0
+
+De Labourdonnais,Louis Charles Mahe - McDonnell,Alexander [D20]
+Match Labourdonnais-McDonnell(3) +6-5=1 London (11), 1834
+
+1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bxc4 exd4 5.exd4 Nf6 6.Nc3 Bd6 7.Nf3 Nc6 8.0-0 0-0 9.h3 h6 10.a3 Bf5 11.g4 Nxg4 12.hxg4 Bxg4 13.Be2 Bxf3 14.Bxf3 Qh4 15.Re1 Nxd4 16.Ne4 Bh2+ 17.Kf1 Rad8 18.Be3 Nf5 19.Qc2 Qh3+ 20.Bg2 Qg4 21.f3 Qg6 22.Bf2 Ne7 23.Rad1 Nd5 24.Bc5 Qc6 25.Qb3 Nf4 26.Bxf8 Qa6+ 27.Kf2 Rxd1 28.Bf1 Bg1+ 29.Kxg1 Rxe1 30.Nd2 Qe2 The Chess Player's Chronicle 1843, p. 39 0-1
+
+McDonnell,Alexander - De Labourdonnais,Louis Charles Mahe [C33]
+Match Labourdonnais-McDonnell(3) +6-5=1 London (12), 08.1834
+
+1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Nc3 Bg7 6.d4 d6 7.Nd5 Kd8 8.Be2 Nf6 9.Nxf6 Bxf6 10.e5 Be7 11.Qd3 Nc6 12.c3 Bd7 13.g3 Qh6 14.exd6 Bxd6 15.h4 g4 16.Bd1 Qf6 17.Ke1 Qe7+ 18.Kf2 Re8 19.gxf4 Qe1+ 20.Kg2 Qe4+ 21.Qxe4 Rxe4 22.Bc2 Re8 23.Bxh7 Be6 24.Kg3 Bd5 25.Rh2 Re1 26.Ne2 Bc4 27.d5 Ne7 28.Nd4 Nxd5 29.h5 Rg1+ 30.Kf2 Rf1+ 31.Kg3 Nxf4 32.Kxg4 Kd7 33.b3 Be6+ 34.Nxe6 Nxe6 35.Re2 Rh8 36.Be4 Rg8+ 37.Kh4 Be7+ 38.Kh3 Bd6 39.h6 Rxc1 40.h7 Rxc3+ 41.Kh4 Be7+ 42.Kh5 Rh3# The Chess Player's Chronicle 1843, p. 85 0-1
+
+McDonnell,Alexander - De Labourdonnais,Louis Charles Mahe [C23]
+Match Labourdonnais-McDonnell(4) +8-3=7 London (1), 08.1834
+[The Chess Player's Chronicle 1843, p. 180/Bla]
+
+1.e4 McDonnell 1860,p.376: "(The third match) was won by De la Bourdonnais, six to five; and this difference is so slight, that again is M'Donnell entitledto all honour for his energetic rallying after the primary severe defeat."
+p.378: "The fourth match was to consist of 11games, and of these De la Bourdonnais won 8 to 3, thus resuming in some respect his original high "vantage ground". 1...e5 2.Bc4 Bc5 3.c3 Qe7 [3...Qg5 4.Qf3 (4.Kf1 Qe7 5.d4 Bb6 6.Nf3 d6=) 4...Qg6 5.d4!? (5.d3 d6 6.Be3 Bb6 7.Nd2 Ne7=) 5...exd4 6.cxd4 Bxd4 7.Ne2°; 
+3...Nc6 4.d4 Bb6 (4...exd4 5.Bxf7+±) 5.Ne2 Nf6 6.Qd3 0-0 7.f4 exd4 8.e5 d5 9.Bb3 Ne4 10.cxd4 f5 11.Nbc3 Be6= Philidor; 
+3...Nf6 --> Philidor analyse 4.d4 exd4 5.e5 (5.cxd4 Bb4+ 6.Bd2 Bxd2+ 7.Nxd2 d5 (7...Nxe4 8.Nxe4 d5 9.Bb5+ c6 10.Bxc6+ Nxc6= Stamma 1745) 8.exd5 0-0³) 5...d5 6.exf6 (6.Bb5+ Bd7 7.Bxd7+ Nfxd7 8.cxd4 Bb4+ 9.Nc3 0-0=) 6...dxc4 7.Qh5 0-0! 8.Qxc5 Re8+ 9.Ne2 (9.Kf1 dxc3 10.Nxc3 Qd3+ 11.Nge2 Rxe2 12.Qd5 Rc2+ 13.Qxd3 cxd3µ) 9...d3 10.Be3 dxe2 11.Nd2 Na6 12.Qxc4 Qxf6=; 
+3...d5 4.Bxd5 (4.exd5? Bxf2+ § h4, c4) 4...Nf6 5.Qf3 (5.Qb3? Nxd5 6.exd5 (6.Qxd5 Qxd5 7.exd5 Bf5 8.Nf3 f6µ ”) 6...Qg5 7.Qa4+ Bd7 8.Qe4 Bf5 9.Qxe5+ (9.Qf3 e4 10.Qg3 Qxg3 11.hxg3 Nd7µ) 9...Kd8 10.Qg3 Re8+µ) 5...0-0 6.d4 (6.Bc4 Bg4 7.Qd3 Qe7 8.Qc2 Be6 9.Bxe6 (9.Be2!?) 9...fxe6 10.Nf3 Nc6 11.d3 Ng4 12.Rf1 Rxf3! 13.gxf3 Nxh2 14.Rh1 Qh4 15.Qe2 Bxf2+ 16.Kd1 Qg3µ Fine) 6...exd4 7.Bg5 dxc3 (7...Be7!?) 8.Bxf6 (8.Nxc3 Nbd7 9.0-0-0 c6 10.Bb3 Qe7=) 8...c2 9.Nc3 Qxf6 10.Qxf6 gxf6 11.Nf3 c6 12.Bb3 f5=] 4.Nf3 d6 5.0-0 Bb6 6.d4 Nf6 7.Na3 Bg4 8.Nc2 Nbd7 9.Qd3 d5 10.exd5 e4 11.Qd2 exf3 12.Re1 Ne4 13.Qf4 f5 14.gxf3 g5 15.Qe3 Ne5 16.Bb5+ c6 17.fxg4 Nxg4 18.Qe2 cxb5 19.f3 Ngf6 20.fxe4 Nxe4 21.Qxb5+ Qd7 22.Qxd7+ Kxd7 23.c4 Rae8 24.c5 Bd8 25.d6 f4 26.b4 Rhf8 27.Rf1 h5 28.Na3 Bf6 29.Bb2 g4 30.Nc4 f3 31.Ne5+ Bxe5 32.dxe5 h4 33.Rad1 f2+ 34.Kh1 h3 35.Rd3 Rg8 36.b5 g3 37.hxg3 Rxg3 38.Rd4 Reg8 39.e6+ Kd8 40.Rdd1 h2 41.e7+ Kd7 42.c6+ bxc6 43.bxc6+ Kxc6 44.e8Q+ Rxe8 45.Kxh2 Re6 46.Rc1+ Kb5 47.a4+ Kb4 48.Bc3+ Rxc3 49.Rxc3 Kxc3 50.d7 Rd6 51.Kg2 Rxd7 52.Rc1+ Kd3 53.Kf1 Ke3 0-1
+
+De Labourdonnais,Louis Charles Mahe - McDonnell,Alexander [D20]
+Match Labourdonnais-McDonnell(4) +8-3=7 London (2), 08.1834
+
+1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bxc4 exd4 5.exd4 Nf6 6.Nc3 Bd6 7.Nf3 0-0 8.h3 Nc6 9.0-0 h6 10.Qd3 Na5 11.Bb5 a6 12.Ba4 c5 13.Bc2 c4 14.Qe2 b5 15.Ne4 Bb7 16.Bd2 Nxe4 17.Bxe4 Re8 18.Ne5 Bxe5 19.dxe5 Bxe4 20.Bxa5 Qd5 21.f4 Re6 22.Rad1 Qc6 23.Rf2 Rae8 24.Bc3 f5 25.Kh2 Kh7 26.g4 g6 27.Qe3 Bd3 28.Rg2 Be4 29.Rg3 Qc7 30.Rd4 Rf8 31.Rd6 Rfe8 32.Qd4 R8e7 33.h4 Bd3 34.h5 fxg4 35.hxg6+ Bxg6 36.Rxg4 Bf5 37.Rg2 Qb7 38.Rxe6 Rxe6 39.Rd2 Qf7 40.Kg1 Rg6+ 41.Rg2 Bh3 42.Rxg6 Qxg6+ 43.Kf2 Qg2+ 44.Ke1 Qh1+ 45.Kd2 Bg4 46.Kc2 Qg2+ 47.Bd2 a5 48.a3 Bf5+ 49.Kc3 Qf3+ 50.Qe3 Qd5 51.Qa7+ Kg6 52.Qb6+ Kf7 53.Qa7+ Bd7 54.Kc2 Qd3+ 55.Kc1 a4 56.Be1 Qf5 57.Qf2 Qg4 58.Kd2 h5 59.Ke3 Kg6 60.Qc2+ Bf5 61.Qe2 Qg1+ 62.Qf2 Qxf2+ 63.Kxf2 h4 64.Kf3 Kh5 65.Bd2 Be6 66.Kg2 Kg4 67.Bc1 h3+ 68.Kh2 Kf3 69.Bd2 Ke2 70.Bc3 Kd3 71.Kg3 Kc2 72.Kh2 Kb3 73.Kg3 b4 74.axb4 a3 75.bxa3 Kxc3 76.b5 Kd2 77.b6 Bd5 78.e6 c3 79.e7 c2 80.e8Q c1Q 81.Kxh3 Qh1+ 82.Kg4 Bf3+ 83.Kf5 Qb1+ 84.Kg5 Qg1+ 85.Kf6 Qxb6+ 86.Qe6 Qd8+ 87.Kg6 Bd5 88.Qf6 Qg8+ 89.Kh6 Ke2 90.a4 Be4 91.a5 Qh7+ 92.Kg5 Qg8+ 93.Kh6 The Chess Player's Chronicle 1843, p. 119 ½-½
+
+De Labourdonnais,Louis Charles Mahe - McDonnell,Alexander [C23]
+Match Labourdonnais-McDonnell(4) +8-3=7 London (3), 08.1834
+
+1.e4 e5 2.Bc4 Bc5 3.Nf3 d6 4.c3 Qe7 5.0-0 Nf6 6.d4 Bb6 7.Bg5 c6 8.Nbd2 h6 9.Bh4 g5 10.Bg3 Bc7 11.Bb3 Bg4 12.Qe1 Nbd7 13.Qe3 Nh7 14.h3 Bxf3 15.Qxf3 Nhf8 16.Nc4 h5 17.Ne3 f6 18.Nf5 Qh7 19.h4 Ng6 20.Rfd1 0-0-0 21.a4 Nf4 22.a5 d5 23.Bc2 Qf7 24.Bxf4 g4 25.Qe2 exf4 26.a6 b6 27.exd5 Rhe8 28.Qc4 Qxd5 29.Qxd5 cxd5 30.Re1 Kb8 31.Ne7 Ne5 32.dxe5 Rxe7 33.exf6 Rf7 34.Re6 Rd6 35.Rae1 Rxe6 36.Rxe6 Bd8 37.Bg6 Rxf6 38.Rxf6 Bxf6 39.g3 fxg3 40.fxg3 d4 41.c4 Kc7 42.Bxh5 d3 43.b3 Kd6 44.Bxg4 Kc5 45.Bd1 Kb4 46.Kf2 Kc3 47.Ke3 Bd4+ 48.Ke4 Bf2 49.Kf4 Kd2 50.Bf3 Kc3 51.Bd1 Kd2 52.Bg4 Kc3 53.Kf3 Bd4 54.Bf5 d2 55.Ke2 Bf2 56.h5 Bxg3 57.Kd1 Bf4 58.Be6 Bh6 59.Bf5 Bg5 The Chess Player's Chronicle 1843, p. 137 ½-½
+
+De Labourdonnais,Louis Charles Mahe - McDonnell,Alexander [D20]
+Match Labourdonnais-McDonnell(4) +8-3=7 London (4), 08.1834
+
+1.d4 d5 2.c4 dxc4 3.e4 e5 4.d5 f5 5.Nc3 Nf6 6.Bxc4 Bc5 7.Nf3 Qe7 8.Bg5 Bxf2+ 9.Kf1 Bb6 10.Qe2 f4 11.Rd1 Bg4 12.d6 cxd6 13.Nd5 Nxd5 14.Bxe7 Ne3+ 15.Ke1 Kxe7 16.Qd3 Rd8 17.Rd2 Nc6 18.b3 Ba5 19.a3 Rac8 20.Rg1 b5 21.Bxb5 Bxf3 22.gxf3 Nd4 23.Bc4 Nxf3+ 24.Kf2 Nxd2 25.Rxg7+ Kf6 26.Rf7+ Kg6 27.Rb7 Ndxc4 28.bxc4 Rxc4 29.Qb1 Bb6 30.Kf3 Rc3 31.Qa2 Nc4+ 32.Kg4 Rg8 33.Rxb6 axb6 34.Kh4 Kf6 35.Qe2 Rg6 36.Qh5 Ne3 The Chess Player's Chronicle 1843, p. 149 0-1
+
+McDonnell,Alexander - De Labourdonnais,Louis Charles Mahe [C51]
+Match Labourdonnais-McDonnell(4) +8-3=7 London (5), 08.1834
+
+1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Be7 6.d4 d6 7.Qb3 Na5 8.Qa4+ c6 9.Bd3 b5 10.Qc2 Bf6 11.dxe5 dxe5 12.0-0 Ne7 13.Ba3 0-0 14.Nbd2 Be6 15.Rad1 Qc7 16.Nb3 Nc4 17.Bc1 Rfd8 18.h3 c5 19.Nh2 Ng6 20.Ng4 Nd6 21.Be2 Be7 22.f4 exf4 23.Bxf4 Nxf4 24.Rxf4 Nc4 25.Rf3 Bxg4 26.hxg4 Ne5 27.Rh3 Rxd1+ 28.Qxd1 Rd8 29.Qf1 c4 30.Nd4 Bc5 31.Qf5 g6 32.Qf2 Qe7 33.Kh1 b4 34.Qe3 bxc3 35.Qh6 f6 36.Ne6 Qxe6 37.Qxh7+ Kf8 38.Qc7 Be7 39.Rxc3 Qb6 40.Qxb6 axb6 41.a4 Bb4 42.Rc1 c3 43.Kh2 Rd2 The Chess Player's Chronicle 1843, p. 166 0-1
+
