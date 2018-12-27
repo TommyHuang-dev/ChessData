@@ -8,13 +8,13 @@ from httplib2 import Http
 from oauth2client import file, client, tools
 
 # If modifying these scopes, delete the file token.json.
-SCOPES = 'https://www.googleapis.com/auth/spreadsheets.readonly'
+SCOPES = 'https://www.googleapis.com/auth/spreadsheets'
 
 # The ID of the spreadsheet can be found in the url:
 # https://docs.google.com/spreadsheets/d/spreadsheetId/edit#gid=sheetId
-SAMPLE_SPREADSHEET_ID = '1lNvvAS-VqpD3ia7HIbkb5ZhGQKIrkHBoM0_fX1myZ3A'
+SPREADSHEET_ID = '1lNvvAS-VqpD3ia7HIbkb5ZhGQKIrkHBoM0_fX1myZ3A'
 # range of data to look at
-SAMPLE_RANGE_NAME = 'A1:D2'
+RANGE = 'A1:D4'
 
 def main():
     # ----- CODE FROM GOOGLE, DONT TOUCH -----
@@ -30,8 +30,11 @@ def main():
 
     # Call the Sheets API
     sheet = service.spreadsheets()
-    result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID, range=SAMPLE_RANGE_NAME).execute()
+    result = sheet.values().get(spreadsheetId=SPREADSHEET_ID, range=RANGE).execute()
     values = result.get('values', [])
+
+    sheet.values().(spreadsheetId=SPREADSHEET_ID, range=RANGE)
+
 
     # ----- FUN STUFF STARTS HERE (my code) -----
 
@@ -39,9 +42,8 @@ def main():
         print('No data found.')
     else:
         for row in values:
-            # prints 4 columns of data (it says row but its actually ABCD)
+            # prints the data data (it says row but its actually ABCD)
             print('%s, %s, %s, %s' % (row[0], row[1], row[2], row[3]))
-            sheet.update()
 
 if __name__ == '__main__':
     main()
