@@ -10,7 +10,7 @@ finalDict = {}
 totalNum = 0
 totalIgnored = 0
 
-IN_NAME = "Database.txt"
+IN_NAME = "Sample Database.txt"
 
 # read and parse
 with open(IN_NAME, "r", errors="replace") as inFile:
@@ -18,7 +18,7 @@ with open(IN_NAME, "r", errors="replace") as inFile:
     openCode = ""
     for line in inFile:
         # ECO code
-        while len(line) < 3:
+        while len(line.rstrip()) <= 3 or line.rstrip()[-1] != ']':
             line = inFile.readline()
         openCode = line.rstrip()[-4:-1]
 
@@ -47,7 +47,7 @@ with open(IN_NAME, "r", errors="replace") as inFile:
             result = 'black'
         else:
             totalIgnored += 1
-            print()
+            print(line)
             continue
 
         # print(openCode, year, result)
@@ -65,7 +65,7 @@ with open(IN_NAME, "r", errors="replace") as inFile:
         finalDict[year][openCode][result] += 1
         totalNum += 1
 
-    # print(finalDict)
+    print(finalDict)
 
 print("ignored games: ", totalIgnored)
 print("included games: ", totalNum)

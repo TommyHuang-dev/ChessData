@@ -12,8 +12,8 @@ def write(data_dict):
     opening_names.sort()
     print("Finished getting opening names!")
 
-    with open("white.csv", 'w', newline='') as whiteFile, open("black.csv", 'w', newline='') as blackFile, \
-            open("draw.csv", 'w', newline='') as drawFile, open("popularity.csv", 'w', newline='') as popularityFile:
+    with open("outputData/white.csv", 'w', newline='') as whiteFile, open("outputData/black.csv", 'w', newline='') as blackFile, \
+            open("outputData/draw.csv", 'w', newline='') as drawFile, open("outputData/popularity.csv", 'w', newline='') as popularityFile:
 
         fieldnames = ['Year'] + opening_names
 
