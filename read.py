@@ -8,15 +8,15 @@ import csv
 # formatting (dictionary): {'year': {'opening': {'white wins': num0, 'draws': num1, 'black wins': num2}}}
 
 finalDict = {}
+
 IN_NAME = "Sample Database 2.txt"
-OUT_NAME = "chessParseData.csv"
 
 # read and parse
 with open(IN_NAME, "r", errors="replace") as inFile:
     # inFile.readline()
     for line in inFile:
         # ECO code
-        openCode = line.rstrip()[-5:]
+        openCode = line.rstrip()[-4:-1]
 
         # year
         line = inFile.readline()
@@ -36,14 +36,26 @@ with open(IN_NAME, "r", errors="replace") as inFile:
         result = line.rstrip()[-3:]
         # convert result (-1 black wins, 0 draw, 1 white wins)
         if result == '1-0':
-            result = '1'
-        elif result == '0-1':
-            result = '-1'
+            result = 'white'
         elif result[-1] == "½":
-            result = '0'
+            result = 'draw'
+        elif result == '0-1':
+            result = 'black'
         else:
             print("dis line: " + line)
 
-        print(openCode, year, result)
+        # print(openCode, year, result)
+        # if the year is not in the dictionary, add it
+        if year not in finalDict:
+            finalDict[year] = {}
 
+        # if the opening code is not in the year, add it and the win-draw-loss rate
+        if openCode not in finalDict[year]:
+            finalDict[year][openCode] = {}
+            finalDict[year][openCode]['white'] = 0
+            finalDict[year][openCode]['draw'] = 0
+            finalDict[year][openCode]['black'] = 0
 
+        finalDict[year][openCode][result] += 1
+
+    print(finalDict)
