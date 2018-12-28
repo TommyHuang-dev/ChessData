@@ -9,7 +9,7 @@ import csv
 
 finalDict = {}
 
-IN_NAME = "Sample Database 2.txt"
+IN_NAME = "Sample Database 2 MODIFIED.txt"
 
 # read and parse
 with open(IN_NAME, "r", errors="replace") as inFile:
@@ -43,6 +43,7 @@ with open(IN_NAME, "r", errors="replace") as inFile:
             result = 'black'
         else:
             print("dis line: " + line)
+            result = 'draw'
 
         # print(openCode, year, result)
         # if the year is not in the dictionary, add it
