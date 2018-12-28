@@ -1,4 +1,4 @@
-import csv
+
 
 # this program writes some chess data to a csv file
 # arbitrary chosen parameters for which games to include:
