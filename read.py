@@ -1,7 +1,6 @@
 import csv
 
 # this program writes some chess data to a csv file
-
 # arbitrary chosen parameters for which games to include:
 # exclude all non-rated. Any rating
 # include opening and year, win (1-0 white win, ½ or = draw, 0-1 white win)
@@ -9,28 +8,31 @@ import csv
 
 finalDict = {}
 
-IN_NAME = "Sample Database 2 MODIFIED.txt"
+IN_NAME = "Database.txt"
 
 # read and parse
 with open(IN_NAME, "r", errors="replace") as inFile:
     # inFile.readline()
+    openCode = ""
     for line in inFile:
         # ECO code
+        while len(line) < 3:
+            line = inFile.readline()
         openCode = line.rstrip()[-4:-1]
 
         # year
         line = inFile.readline()
         year = line.rstrip()[-4:]
 
-        # read through all stuffs
+        # read through all stuffs, go through some blank spaces and some not blank spaces
         while len(line) > 1:
-            line = inFile.readline()
-
+            line = inFile.readline().rstrip()
+        while len(line) < 3:
+            line = inFile.readline().rstrip()
         # result (1-0, ½-½, 0-1)
-        lineNew = inFile.readline()
-        while len(lineNew) > 1:
-            lineOld = lineNew
-            lineNew = inFile.readline()
+        while len(line) > 1:
+            lineOld = line
+            line = inFile.readline().rstrip()
         line = lineOld
 
         result = line.rstrip()[-3:]
@@ -59,4 +61,4 @@ with open(IN_NAME, "r", errors="replace") as inFile:
 
         finalDict[year][openCode][result] += 1
 
-    print(finalDict)
+    # print(finalDict)
