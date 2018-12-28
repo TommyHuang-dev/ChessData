@@ -1,4 +1,4 @@
-
+import write
 
 # this program writes some chess data to a csv file
 # arbitrary chosen parameters for which games to include:
@@ -7,6 +7,8 @@
 # formatting (dictionary): {'year': {'opening': {'white wins': num0, 'draws': num1, 'black wins': num2}}}
 
 finalDict = {}
+totalNum = 0
+totalIgnored = 0
 
 IN_NAME = "Database.txt"
 
@@ -44,8 +46,9 @@ with open(IN_NAME, "r", errors="replace") as inFile:
         elif result == '0-1':
             result = 'black'
         else:
-            print("dis line: " + line)
-            result = 'draw'
+            totalIgnored += 1
+            print()
+            continue
 
         # print(openCode, year, result)
         # if the year is not in the dictionary, add it
@@ -60,5 +63,11 @@ with open(IN_NAME, "r", errors="replace") as inFile:
             finalDict[year][openCode]['black'] = 0
 
         finalDict[year][openCode][result] += 1
+        totalNum += 1
 
     # print(finalDict)
+
+print("ignored games: ", totalIgnored)
+print("included games: ", totalNum)
+
+write.write(finalDict)
