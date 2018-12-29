@@ -9,35 +9,53 @@ import write
 finalDict = {}
 totalNum = 0
 totalIgnored = 0
+EOF = False
 
-IN_NAME = "Sample Database.txt"
+IN_NAME = "Sample Database 3.txt"
 
 # read and parse
 with open(IN_NAME, "r", errors="replace") as inFile:
-    # inFile.readline()
     openCode = ""
-    for line in inFile:
-        # ECO code
-        while len(line.rstrip()) <= 3 or line.rstrip()[-1] != ']':
-            line = inFile.readline()
-        openCode = line.rstrip()[-4:-1]
 
-        # year
+    # first ECO code
+    line = inFile.readline()
+    while len(line.rstrip()) <= 3 or line.rstrip()[-1] != ']':
         line = inFile.readline()
+    openCode = line.rstrip()[-4:-1]
+
+    for line in inFile:
+    # while True:
+    #     line = inFile.readline()
+    #     if not line:
+    #         break
         year = line.rstrip()[-4:]
 
-        # read through all stuffs, go through some blank spaces and some not blank spaces
-        while len(line) > 1:
+        # # read through all stuffs, go through some blank spaces and some not blank spaces
+        while len(line) > 1:    # skips lines directly after the year
             line = inFile.readline().rstrip()
-        while len(line) < 3:
-            line = inFile.readline().rstrip()
-        # result (1-0, ½-½, 0-1)
-        while len(line) > 1:
-            lineOld = line
-            line = inFile.readline().rstrip()
-        line = lineOld
+        # while len(line) < 3:    # skips empty lines before the game
+        #     line = inFile.readline().rstrip()
+        # # result (1-0, ½-½, 0-1)
+        # while len(line) > 1:
+        #     lineOld = line
+        #     line = inFile.readline().rstrip()
+        # line = lineOld
 
-        result = line.rstrip()[-3:]
+        lineold = ""
+
+        # skip until next ECO code
+        while len(line) <= 3 or line.rstrip()[-1] != ']' or '[' not in line:
+            if len(line) > 3:
+                lineold = line
+            line = inFile.readline()
+            if not line:
+                EOF = True
+                break
+
+        if not EOF:
+            nextOpenCode = line.rstrip()[-4:-1]
+
+        result = lineold.rstrip()[-3:]
         # convert result (-1 black wins, 0 draw, 1 white wins)
         if result == '1-0':
             result = 'white'
@@ -64,6 +82,9 @@ with open(IN_NAME, "r", errors="replace") as inFile:
 
         finalDict[year][openCode][result] += 1
         totalNum += 1
+        if EOF:
+            break
+        openCode = nextOpenCode
 
     print(finalDict)
 
