@@ -40,7 +40,7 @@ totalNum = 0
 totalIgnored = 0
 EOF = False
 
-IN_NAME = "Database1.htm"
+IN_NAME = "sampleData/Sample Database 2.htm"
 
 # read and parse
 with open(IN_NAME, "r", errors="replace") as inFile:
@@ -80,6 +80,7 @@ with open(IN_NAME, "r", errors="replace") as inFile:
         else:
             gameString += line.rstrip()
 
+    print()
     print(finalDict)
 
 print("ignored games: ", totalIgnored)
