@@ -6,8 +6,11 @@ import write
 # include opening and year, win (1-0 white win, ½ or = draw, 0-1 white win)
 # formatting (dictionary): {'year': {'opening': {'white wins': num0, 'draws': num1, 'black wins': num2}}}
 
+PRINT_ERRORS = False
+PRINT_PROGRESS = True
+
 def parse_game(game):
-    global totalNum, totalIgnored
+    global totalNum, totalIgnored, PRINT_ERRORS
     data = []  # list of year, opening, result
     game = game.split("<br/>")
     data.append(game[1][-4:])
@@ -28,8 +31,9 @@ def parse_game(game):
         data[2] = "black"
         totalNum += 1
     else:
-        print("ignored this game:")
-        print(game[-2:])
+        if PRINT_ERRORS:
+            print("ignored this game:")
+            print(game[-2:])
         totalIgnored += 1
         return "failed"
 
@@ -41,6 +45,7 @@ totalIgnored = 0
 
 # read and parse
 def readFile(path):
+    global PRINT_PROGRESS
     with open(path, "r", errors="replace") as inFile:
         year = ""
         openCode = ""
@@ -72,6 +77,8 @@ def readFile(path):
                         finalDict[year][openCode]['black'] = 0
 
                     finalDict[year][openCode][result] += 1
+                    if PRINT_PROGRESS and totalNum % 100000 == 0:
+                        print("Progress:", totalNum)
 
                 # reset gameString, include the rest of the line
                 gameString = line[1]
@@ -79,8 +86,10 @@ def readFile(path):
                 gameString += line.rstrip()
 
 
-readFile("sampleData/Sample Database 2.htm")
-readFile("sampleData/Sample Database 1.txt")
+# readFile("sampleData/Sample Database 2.htm")
+# readFile("sampleData/Sample Database 1.txt")
+readFile("Database1.htm")
+readFile("Database2.htm")
 
 print()
 print(finalDict)
