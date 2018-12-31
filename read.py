@@ -33,7 +33,6 @@ def parse_game(game):
         totalIgnored += 1
         return "failed"
 
-    print(data)
     return data
 
 finalDict = {}
@@ -41,7 +40,7 @@ totalNum = 0
 totalIgnored = 0
 EOF = False
 
-IN_NAME = "sampleData/Sample Database 1.txt"
+IN_NAME = "Database1.htm"
 
 # read and parse
 with open(IN_NAME, "r", errors="replace") as inFile:
@@ -60,7 +59,7 @@ with open(IN_NAME, "r", errors="replace") as inFile:
             stats = parse_game(gameString)
             if stats != "failed":  # if it failed, it will skip this step
                 year = stats[0]
-                opencode = stats[1]
+                openCode = stats[1]
                 result = stats[2]
 
                 # write to final dictionary
