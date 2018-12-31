@@ -1,4 +1,4 @@
-import write, time
+import write, time, string
 
 # this program writes some chess data to a csv file
 # arbitrary chosen parameters for which games to include:
@@ -16,7 +16,12 @@ def parse_game(game):
     data = []  # list of year, opening, result
     game = game.split("<br/>")
     data.append(game[1][-4:])
-    data.append(game[0][-4: -1])
+    # some logic for ECO codes
+    if game[0][-1] == "]":
+        data.append(game[0][-4: -1])
+    else:
+        totalIgnored += 1
+        return "failed"
     data.append("failed")
     for i in range(len(game[-1]) - 1, 0, -1):
         if game[-1][i] == "-":
@@ -66,7 +71,6 @@ def readFile(path):
                     year = stats[0]
                     openCode = stats[1]
                     result = stats[2]
-
                     # write to final dictionary
                     # if the year is not in the dictionary, add it
                     if year not in finalDict:
@@ -77,7 +81,10 @@ def readFile(path):
                         finalDict[year][openCode]['white'] = 0
                         finalDict[year][openCode]['draw'] = 0
                         finalDict[year][openCode]['black'] = 0
-
+                    if openCode[0] not in string.ascii_uppercase:
+                        print(openCode)
+                        print(gameString)
+                        quit(-1)
                     finalDict[year][openCode][result] += 1
                     if PRINT_PROGRESS and totalNum % 100000 == 0:
                         print("Progress:", totalNum)

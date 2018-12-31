@@ -48,9 +48,10 @@ def write(data_dict):
                     drawRow[opening] = 0
                     popularityRow[opening] = 0
                 else:
-                    whiteRow[opening] = data_dict[year][opening]["white"]
-                    blackRow[opening] = data_dict[year][opening]["black"]
-                    drawRow[opening] = data_dict[year][opening]["draw"]
+                    total_games_of_opening_in_year = sum(data_dict[year][opening].values())
+                    whiteRow[opening] = data_dict[year][opening]["white"] / total_games_of_opening_in_year
+                    blackRow[opening] = data_dict[year][opening]["black"] / total_games_of_opening_in_year
+                    drawRow[opening] = data_dict[year][opening]["draw"] / total_games_of_opening_in_year
                     total_games_of_opening_in_year = sum(data_dict[year][opening].values())
                     popularityRow[opening] = total_games_of_opening_in_year / total_games_in_year
 
