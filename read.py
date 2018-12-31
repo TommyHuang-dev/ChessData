@@ -1,4 +1,4 @@
-import write
+import write, time
 
 # this program writes some chess data to a csv file
 # arbitrary chosen parameters for which games to include:
@@ -8,6 +8,8 @@ import write
 
 PRINT_ERRORS = False
 PRINT_PROGRESS = True
+
+start_time = time.time()
 
 def parse_game(game):
     global totalNum, totalIgnored, PRINT_ERRORS
@@ -86,14 +88,19 @@ def readFile(path):
                 gameString += line.rstrip()
 
 
+print("Reading games...")
+
 # readFile("sampleData/Sample Database 2.htm")
 # readFile("sampleData/Sample Database 1.txt")
 readFile("Database1.htm")
 readFile("Database2.htm")
 
-print()
+print("Done reading games!")
+
 print(finalDict)
 print("ignored games: ", totalIgnored)
 print("included games: ", totalNum)
 
 write.write(finalDict)
+
+print("Total time:", time.time() - start_time, "s")
