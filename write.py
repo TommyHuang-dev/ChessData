@@ -32,7 +32,7 @@ def write(data_dict):
         drawRow = {}
         popularityRow = {}
 
-        for year in data_dict:
+        for year in sorted(data_dict.keys()):
             whiteRow["Year"] = year
             blackRow["Year"] = year
             drawRow["Year"] = year

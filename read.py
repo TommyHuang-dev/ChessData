@@ -38,51 +38,52 @@ def parse_game(game):
 finalDict = {}
 totalNum = 0
 totalIgnored = 0
-EOF = False
-
-IN_NAME = "sampleData/Sample Database 2.htm"
 
 # read and parse
-with open(IN_NAME, "r", errors="replace") as inFile:
-    year = ""
-    openCode = ""
-    result = ""
-    gameString = ""  # string for one game
+def readFile(path):
+    with open(path, "r", errors="replace") as inFile:
+        year = ""
+        openCode = ""
+        result = ""
+        gameString = ""  # string for one game
 
-    for line in inFile:
-        if "</p>" in line:
-            # separate two different games
-            line = line.rstrip().split("</p>")
-            gameString += line[0]
+        for line in inFile:
+            if "</p>" in line:
+                # separate two different games
+                line = line.rstrip().split("</p>")
+                gameString += line[0]
 
-            # call parse_game, which returns an list of all the important details
-            stats = parse_game(gameString)
-            if stats != "failed":  # if it failed, it will skip this step
-                year = stats[0]
-                openCode = stats[1]
-                result = stats[2]
+                # call parse_game, which returns an list of all the important details
+                stats = parse_game(gameString)
+                if stats != "failed":  # if it failed, it will skip this step
+                    year = stats[0]
+                    openCode = stats[1]
+                    result = stats[2]
 
-                # write to final dictionary
-                # if the year is not in the dictionary, add it
-                if year not in finalDict:
-                    finalDict[year] = {}
-                # if the opening code is not in the year, add it and the win-draw-loss rate
-                if openCode not in finalDict[year]:
-                    finalDict[year][openCode] = {}
-                    finalDict[year][openCode]['white'] = 0
-                    finalDict[year][openCode]['draw'] = 0
-                    finalDict[year][openCode]['black'] = 0
+                    # write to final dictionary
+                    # if the year is not in the dictionary, add it
+                    if year not in finalDict:
+                        finalDict[year] = {}
+                    # if the opening code is not in the year, add it and the win-draw-loss rate
+                    if openCode not in finalDict[year]:
+                        finalDict[year][openCode] = {}
+                        finalDict[year][openCode]['white'] = 0
+                        finalDict[year][openCode]['draw'] = 0
+                        finalDict[year][openCode]['black'] = 0
 
-                finalDict[year][openCode][result] += 1
+                    finalDict[year][openCode][result] += 1
 
-            # reset gameString, include the rest of the line
-            gameString = line[1]
-        else:
-            gameString += line.rstrip()
+                # reset gameString, include the rest of the line
+                gameString = line[1]
+            else:
+                gameString += line.rstrip()
 
-    print()
-    print(finalDict)
 
+readFile("sampleData/Sample Database 2.htm")
+readFile("sampleData/Sample Database 1.txt")
+
+print()
+print(finalDict)
 print("ignored games: ", totalIgnored)
 print("included games: ", totalNum)
 
