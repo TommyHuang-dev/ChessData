@@ -6,85 +6,80 @@ import write
 # include opening and year, win (1-0 white win, ½ or = draw, 0-1 white win)
 # formatting (dictionary): {'year': {'opening': {'white wins': num0, 'draws': num1, 'black wins': num2}}}
 
+def parse_game(game):
+    global totalNum, totalIgnored
+    data = []  # list of year, opening, result
+    game = game.split("<br/>")
+    data.append(game[1][-4:])
+    data.append(game[0][-4: -1])
+    data.append("failed")
+    for i in range(len(game[-1]) - 1, 0, -1):
+        if game[-1][i] == "-":
+            data[2] = game[-1][i - 1: i + 2]
+            break
+
+    if data[2] == "1-0":
+        data[2] = "white"
+        totalNum += 1
+    elif data[2] == "2-1":
+        data[2] = "draw"
+        totalNum += 1
+    elif data[2] == "0-1":
+        data[2] = "black"
+        totalNum += 1
+    else:
+        print("ignored this game:")
+        print(game[-2:])
+        totalIgnored += 1
+        return "failed"
+
+    print(data)
+    return data
+
 finalDict = {}
 totalNum = 0
 totalIgnored = 0
 EOF = False
 
-IN_NAME = "Sample Database 3.txt"
+IN_NAME = "sampleData/Sample Database 1.txt"
 
 # read and parse
 with open(IN_NAME, "r", errors="replace") as inFile:
+    year = ""
     openCode = ""
-
-    # first ECO code
-    line = inFile.readline()
-    while len(line.rstrip()) <= 3 or line.rstrip()[-1] != ']':
-        line = inFile.readline()
-    openCode = line.rstrip()[-4:-1]
+    result = ""
+    gameString = ""  # string for one game
 
     for line in inFile:
-    # while True:
-    #     line = inFile.readline()
-    #     if not line:
-    #         break
-        year = line.rstrip()[-4:]
+        if "</p>" in line:
+            # separate two different games
+            line = line.rstrip().split("</p>")
+            gameString += line[0]
 
-        # # read through all stuffs, go through some blank spaces and some not blank spaces
-        while len(line) > 1:    # skips lines directly after the year
-            line = inFile.readline().rstrip()
-        # while len(line) < 3:    # skips empty lines before the game
-        #     line = inFile.readline().rstrip()
-        # # result (1-0, ½-½, 0-1)
-        # while len(line) > 1:
-        #     lineOld = line
-        #     line = inFile.readline().rstrip()
-        # line = lineOld
+            # call parse_game, which returns an list of all the important details
+            stats = parse_game(gameString)
+            if stats != "failed":  # if it failed, it will skip this step
+                year = stats[0]
+                opencode = stats[1]
+                result = stats[2]
 
-        lineold = ""
+                # write to final dictionary
+                # if the year is not in the dictionary, add it
+                if year not in finalDict:
+                    finalDict[year] = {}
+                # if the opening code is not in the year, add it and the win-draw-loss rate
+                if openCode not in finalDict[year]:
+                    finalDict[year][openCode] = {}
+                    finalDict[year][openCode]['white'] = 0
+                    finalDict[year][openCode]['draw'] = 0
+                    finalDict[year][openCode]['black'] = 0
 
-        # skip until next ECO code
-        while len(line) <= 3 or line.rstrip()[-1] != ']' or '[' not in line:
-            if len(line) > 3:
-                lineold = line
-            line = inFile.readline()
-            if not line:
-                EOF = True
-                break
+                finalDict[year][openCode][result] += 1
 
-        if not EOF:
-            nextOpenCode = line.rstrip()[-4:-1]
-
-        result = lineold.rstrip()[-3:]
-        # convert result (-1 black wins, 0 draw, 1 white wins)
-        if result == '1-0':
-            result = 'white'
-        elif result[-1] == "½":
-            result = 'draw'
-        elif result == '0-1':
-            result = 'black'
+            # reset gameString, include the rest of the line
+            gameString = line[1]
         else:
-            totalIgnored += 1
-            print(line)
-            continue
-
-        # print(openCode, year, result)
-        # if the year is not in the dictionary, add it
-        if year not in finalDict:
-            finalDict[year] = {}
-
-        # if the opening code is not in the year, add it and the win-draw-loss rate
-        if openCode not in finalDict[year]:
-            finalDict[year][openCode] = {}
-            finalDict[year][openCode]['white'] = 0
-            finalDict[year][openCode]['draw'] = 0
-            finalDict[year][openCode]['black'] = 0
-
-        finalDict[year][openCode][result] += 1
-        totalNum += 1
-        if EOF:
-            break
-        openCode = nextOpenCode
+            gameString += line.rstrip()
 
     print(finalDict)
 
