@@ -8,6 +8,7 @@ import write, time, string
 
 PRINT_ERRORS = False
 PRINT_PROGRESS = True
+YEAR_CUTOFF = 1900
 
 start_time = time.time()
 
@@ -16,6 +17,10 @@ def parse_game(game):
     data = []  # list of year, opening, result
     game = game.split("<br/>")
     data.append(game[1][-4:])
+    # year cutoff
+    if int(data[0]) < YEAR_CUTOFF:
+        totalIgnored += 1
+        return "failed"
     # some logic for ECO codes
     if game[0][-1] == "]":
         data.append(game[0][-4: -1])
