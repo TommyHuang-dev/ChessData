@@ -33,6 +33,11 @@ def parse_game(game):
             data[2] = game[-1][i - 1: i + 2]
             break
 
+    # ignore some openings
+    for i in ignoreList:
+        if i in data[1]:
+            return "failed"
+
     if data[2] == "1-0":
         data[2] = "white"
         totalNum += 1
@@ -50,6 +55,9 @@ def parse_game(game):
         return "failed"
 
     return data
+
+# ignore these openings
+ignoreList = ["A00"]
 
 finalDict = {}
 totalNum = 0
