@@ -23,8 +23,8 @@ def parse_game(game):
         totalIgnored += 1
         return "failed"
     # num moves cutoff
-    for i in range(3, len(game) + 1):
-        if str(MOVES_CUTOFF) + "." not in game[i - 1]:
+    for i in range(2, len(game)):
+        if str(MOVES_CUTOFF) + "." not in game[i]:
             totalIgnored += 1
             return "failed"
 
