@@ -14,8 +14,8 @@ MOVES_CUTOFF = 6  # any game with less than this will not be included
 start_time = time.time()
 
 def parse_game(game):
-    global totalNum, totalIgnored, PRINT_ERRORS
-    data = []  # list of year, opening, result
+    global totalNum, totalIgnored, PRINT_ERRORS, classicalOpen, modernOpen
+    data = []  # list of year, opening, result, school of chess
     game = game.split("<br/>")
     data.append(game[1][-4:])
     # year cutoff
@@ -40,11 +40,24 @@ def parse_game(game):
             data[2] = game[-1][i - 1: i + 2]
             break
 
-    # ignore some openings
-    for i in ignoreList:
+    data.append("")
+    for i in classicalOpen:
         if i in data[1]:
-            totalIgnored += 1
-            return "failed"
+            data[3] = "classical"
+            break
+    if not data[3]:
+        for i in modernOpen:
+            if i in data[1]:
+                data[3] = "hypermodern"
+                break
+    if not data[3]:
+        data[3] = "other"
+
+    # ignore some openings
+    # for i in ignoreList:
+    #     if i in data[1]:
+    #         totalIgnored += 1
+    #         return "failed"
 
     if data[2] == "1-0":
         data[2] = "white"
@@ -64,8 +77,25 @@ def parse_game(game):
 
     return data
 
+# classical openings list
+classicalOpen = []
+modernOpen = []
+
+with open("classicalOpenings", "r", errors="replace") as classFile:
+    for line in classFile:
+        line = line.split()
+        classicalOpen += line
+
+with open("modernOpenings", "r", errors="replace") as modFile:
+    for line in modFile:
+        line = line.split()
+        modernOpen += line
+
+print(classicalOpen)
+print(modernOpen)
+
 # ignore these openings
-ignoreList = ["A00"]
+ignoreList = []
 
 finalDict = {}
 totalNum = 0
@@ -92,21 +122,14 @@ def readFile(path):
                     year = stats[0]
                     openCode = stats[1]
                     result = stats[2]
+                    style = stats[3]
                     # write to final dictionary
                     # if the year is not in the dictionary, add it
                     if year not in finalDict:
-                        finalDict[year] = {}
+                        finalDict[year] = {"classical": {"black": 0, "draw": 0, "white": 0}, "hypermodern": {"black": 0, "draw": 0, "white": 0}, "other": {"black": 0, "draw": 0, "white": 0}}
                     # if the opening code is not in the year, add it and the win-draw-loss rate
-                    if openCode not in finalDict[year]:
-                        finalDict[year][openCode] = {}
-                        finalDict[year][openCode]['white'] = 0
-                        finalDict[year][openCode]['draw'] = 0
-                        finalDict[year][openCode]['black'] = 0
-                    if openCode[0] not in string.ascii_uppercase:
-                        print(openCode)
-                        print(gameString)
-                        quit(-1)
-                    finalDict[year][openCode][result] += 1
+
+                    finalDict[year][style][result] += 1
                     if PRINT_PROGRESS and totalNum % 100000 == 0:
                         print("Progress:", totalNum)
 
@@ -126,6 +149,7 @@ readFile("Database2.htm")
 print("Done reading games!")
 
 print(finalDict)
+
 print("ignored games: ", totalIgnored)
 print("included games: ", totalNum)
 
