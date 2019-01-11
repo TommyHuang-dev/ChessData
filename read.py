@@ -9,7 +9,7 @@ import write, time, string
 PRINT_ERRORS = False
 PRINT_PROGRESS = True
 YEAR_CUTOFF = 1900
-MOVES_CUTOFF = 6  # any game with less than this will not be included
+MOVES_CUTOFF = 4  # any game with less than this will not be included
 
 start_time = time.time()
 
